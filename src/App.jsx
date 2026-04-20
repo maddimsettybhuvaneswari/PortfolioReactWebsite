@@ -187,7 +187,7 @@ function Navbar() {
         <nav className="flex items-center justify-between py-4">
           <div className="flex items-center gap-3">
             <div className="h-10 w-10 rounded-full bg-gradient-to-tr from-indigo-500 to-pink-500 flex items-center justify-center text-white font-bold">
-              MB
+              BM
             </div>
             <div>
               <a href="#home" className="text-lg font-semibold phover">
