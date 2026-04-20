@@ -43,7 +43,7 @@ const projects = [
       "The Employee Task Calendar is a full-stack task management system developed using Angular, Express.js, and MySQL that helps companies organize employees, departments, and daily work schedules in a clean and intuitive way. The platform includes a Google-Calendar–style interface with Day, Week, and Month views, allowing users to easily navigate and visualize their tasks. Employees can select their department, instantly view all assigned tasks, and start a task by choosing the required time duration. Once the work is completed, the user can end the task, and the system automatically records it in the daily task history The application supports multiple departments, enabling users to switch between teams and track department-wise work schedules. It also keeps complete logs of started and completed tasks, making it easier for companies to monitor productivity and daily activity. This solution combines a responsive Angular UI with powerful backend logic in Express.js and efficient data storage in MySQL to deliver a smooth and reliable task-tracking experience.",
     tech: ["Angular", "ExpressJs", "MySQL", "CSS BootStrap"],
     repo: "#",
-    period: "January 2024-June 2024",
+    period: "January 2024-May 2024",
   },
   {
     title: "Telecallers Call Assignment",
@@ -51,7 +51,7 @@ const projects = [
       "The Telecaller Calls Assignment System is a streamlined solution designed to manage and distribute incoming customer calls across multiple departments. The platform allows users to filter call records by department and custom date ranges, making it easy to locate the exact set of calls that need assignment. Once filtered, managers can quickly allocate calls to telecallers based on their workload, availability, and assigned region, ensuring a balanced and organized workflow.The system supports multiple telecaller teams and provides an efficient interface to assign call lists directly to each telecaller. A detailed assignment history is maintained, capturing who assigned the calls, to whom they were assigned, and how many calls were distributed. This helps improve transparency, performance tracking, and operational efficiency.",
     tech: ["Angular", "ExpressJs", "MySQL", "CSS BootStrap"],
     repo: "#",
-    period: "August 2024-November 2024",
+    period: "May 2024-July 2024",
   },
   {
     title: "GPS Camera",
@@ -59,7 +59,7 @@ const projects = [
       "The GPS Attendance System is a location-enabled attendance module designed to capture employee presence with accuracy and transparency. The application uses the device camera to capture the employee’s face and automatically fetches GPS coordinates (latitude and longitude) along with the current date and time. This ensures that every attendance entry is verified with both visual proof and precise location data.The system is primarily used by companies to validate employee check-ins and track attendance authenticity. I developed the complete frontend interface, including the camera module, UI flow, and GPS data capture functionality. The frontend ensures a smooth user experience while interacting with the camera, retrieving location details, and preparing the attendance entry for backend processing.",
     tech: ["React", "CSS Bootstrap"],
     repo: "#",
-    period: "December 2024 2025-January 2025",
+    period: "July 2024 - September 2024",
   },
   {
     title: "Ticket Management Daily Report",
@@ -67,7 +67,7 @@ const projects = [
       "The Ticket Management System helps organizations handle employee issues in a structured and trackable way. Employees can create tickets, which move through statuses such as Created, Assigned, In-Progress, and Closed. The system also provides an Accepted / Unaccepted view so managers can instantly see which tickets have been acknowledged and which still need attention. With separate tables for ticket status, assignment details, and date-range filtering, managers can easily monitor workloads, track unresolved issues, and review ticket history. I developed both the frontend and backend, including MySQL database integration, ensuring smooth ticket creation, assignment, tracking, and reporting.",
     tech: ["Angular", "Expressjs", "MySQL"],
     repo: "#",
-    period: "January 2025-March 2025",
+    period: "October 2024- January 2025",
   },
   {
     title: "Coupon Slot Management System",
@@ -75,7 +75,7 @@ const projects = [
       "The Coupon Slot Management System allows users to create and manage time-based and date-based coupon slots. Users can generate coupons by selecting a specific start date, end date, and time duration, and the system automatically determines whether the coupon is active, upcoming, or expired. Each coupon is stored with complete scheduling details, enabling easy tracking and management. I developed both the frontend and backend along with MySQL integration, ensuring accurate time validation, automatic expiration checks, and a smooth user experience for creating and monitoring coupon slots.",
     tech: ["Angular", "Expressjs", "MySQL", "CSS Bootstrap"],
     repo: "#",
-    period: "March 2025-April 2025",
+    period: "January 2025-March 2025",
   },
   {
     title: "Video Merging in React Native",
@@ -83,7 +83,7 @@ const projects = [
       "The Video Merging Module is a mobile application feature developed in React Native that enables users to seamlessly merge multiple videos into a single output file. Using FFmpegKit, the system combines video clips with smooth transitions while maintaining high quality. The module supports selecting remote or local videos, processing them in sequence, and generating a single merged video ready for sharing. I implemented the complete logic, including video fetching, FFmpeg command execution, file handling, and output rendering, ensuring fast processing and an intuitive user experience for video merging on mobile devices.",
     tech: ["React Native", "CSS Bootstrap"],
     repo: "#",
-    period: "April 2025-May 2025",
+    period: "March 2025-April 2025",
   },
   {
     title: "QR Code Generator in Angular",
@@ -91,7 +91,7 @@ const projects = [
       "The QR Code Generator module allows users to create and store QR codes with associated metadata in a database. Each QR code is generated dynamically in Angular and saved with its creation date and day for easy tracking and reference. Users can view generated QR codes along with their timestamps, enabling better organization and monitoring. I developed the complete frontend and backend logic, including database integration, QR code generation, storage, and display functionality, ensuring a smooth and reliable user experience.",
     tech: ["Angular", "ExpressJs", "MySQL", "CSS Bootstrap"],
     repo: "#",
-    period: "May 2025-June 2025",
+    period: "April 2025-May 2025",
   },
   {
     title: "Video QR Overlay in React",
@@ -99,7 +99,7 @@ const projects = [
       "The Video QR Overlay module allows users to upload a video and automatically overlay a dynamically generated QR code onto it. The QR code is clearly positioned on the video, and users can easily download the final output. I developed the complete frontend interface, including video upload handling, QR code generation, overlay display, and download functionality, ensuring a smooth and intuitive user experience.",
     tech: ["React", "CSS Bootstrap"],
     repo: "#",
-    period: "June 2025-July 2025",
+    period: "May 2025-June 2025",
   },
   {
     title: "Human Detection using React & FastAPI",
@@ -107,7 +107,7 @@ const projects = [
       "The Human Detection module is a web application that captures a person’s face using the device camera and applies a machine learning model via FastAPI to detect whether the captured subject is human. The system provides real-time feedback, indicating if a human face is detected or not. I developed the complete frontend interface in React, handling camera access, live video feed, and real-time interaction with the backend API, ensuring a smooth and responsive user experience.",
     tech: ["React", "Machine Learnig FastApi.js", "CSS Bootstrap"],
     repo: "#",
-    period: "July 2025-August 2025",
+    period: "June 2025-July 2025",
   },
   {
     title: "Batch Image Compression Using React",
@@ -115,7 +115,7 @@ const projects = [
       "The Batch Image Compression module allows users to upload an entire folder containing multiple images and automatically compresses all of them without reducing visual quality. Built using React.js, this project focuses on efficient client-side processing, reducing file sizes while preserving image clarity. The system reads every image inside the folder, compresses them using optimized algorithms, and provides users with a downloadable version of the compressed images. I developed the complete frontend, including folder upload handling, batch processing workflow, and a clean, user-friendly interface.",
     tech: ["React", "Tailwind CSS"],
     repo: "#",
-    period: "August 2025 - September 2025",
+    period: "July 2025 - August 2025",
   },
   {
     title: "Barcode Creation System",
@@ -123,7 +123,7 @@ const projects = [
       "The Barcode Creation System allows users to generate unique barcodes based on selected dates and store them securely in a database. Built with Angular for the frontend and Express.js with MySQL for the backend, the module provides a smooth workflow for creating, viewing, and downloading barcodes. Users select a date, click the generate button, and a new barcode is created automatically and saved in the system. All generated barcodes are listed in the UI with options to preview and download.",
     tech: ["Angular", "Express Js", "MySQL", "CSS Bootstrap"],
     repo: "#",
-    period: "September 2025 - November 2025",
+    period: "August 2025 - September 2025",
   },
   {
     title: "QR Code Creation System (Angular + Express.js + MySQL)",
@@ -131,7 +131,7 @@ const projects = [
       "This module allows users to generate unique QR codes based on a selected date. When the user chooses a date and clicks the generate button, the system creates a QR code and stores it in a MySQL database. The interface displays all previously generated QR codes along with their created date. Each QR code can also be downloaded directly from the UI. I developed both the frontend in Angular and the backend using Express.js, ensuring smooth generation, storage, and display of all QR codes.",
     tech: ["Angular", "Express Js", "MySQL", "CSS Bootstrap"],
     repo: "#",
-    period: "November 2025 - December 2025",
+    period: "September 2025 - October 2025",
   },
   {
     title: "News Management Module",
@@ -139,7 +139,7 @@ const projects = [
       "This module allows users to create, edit, and delete news articles through a simple and user-friendly interface. When a user submits the news form, the data is stored in MySQL and instantly displayed in the UI. Each news item includes edit and delete options, enabling easy updates and content management. I developed the full frontend in Angular and built the backend APIs using Express.js for smooth CRUD operations.",
     tech: ["Angular", "Express Js", "MySQL", "CSS Bootstrap"],
     repo: "#",
-    period: "December 2025 - January 2026",
+    period: "October 2025 - November 2025",
   },
   {
     title: "Ticket Management System",
@@ -147,7 +147,7 @@ const projects = [
       "This module is designed to manage employee tickets efficiently. Each ticket contains user details, images, and an associated count value. When a user enters the count, the system updates the coins for that employee using their unique employee ID. The module includes powerful filters to help users quickly search and sort tickets based on different parameters. I developed the entire frontend in Angular and built the backend using Express.js, ensuring accurate updates and seamless data flow between UI and database.",
     tech: ["Angular", "Express Js", "MySQL", "CSS Bootstrap"],
     repo: "#",
-    period: "January 2026 - February 2026",
+    period: "November 2025 - December 2025",
   },
   {
     title: "Users Dashboard & Coins Management System",
@@ -155,7 +155,7 @@ const projects = [
       "This module provides a complete dashboard for managing users and tracking their coin-related activities. The main dashboard lists all users, and when a user is selected, their detailed profile opens with two sections: Dashboard and Coins History. In the Dashboard section, the system shows a circular progress view representing the user’s presence or activity performance.In the Coins History section, the system displays full transaction details including total coins, credited coins, debited coins, transaction images, and the remaining balance for every transaction—similar to digital wallet apps like PhonePe. The system also includes powerful filters such as date range and transaction type for easy sorting. Admins can debit coins using a dedicated form, and all debited transactions are stored and displayed in a separate Debited History section.I developed both the frontend (Angular) and backend (Express.js + MySQL), ensuring smooth data flow and accurate coin calculations.",
     tech: ["Angular", "Express Js", "MySQL", "CSS Bootstrap"],
     repo: "#",
-    period: "February 2026 - March 2026",
+    period: "January 2026 - February 2026",
   },
   {
     title: "Login Page",
@@ -163,7 +163,7 @@ const projects = [
       "I developed a secure login module using Angular for the frontend and Express.js for the backend.The login page supports two authentication options: Mobile number login, Email login. The frontend includes form validation, error messages, and a clean UI. On the backend, Express.js handles: User verification, Request validation , API response handling. This module ensures safe authentication and smooth user experience.",
     tech: ["Angular", "Express Js", "MySQL", "CSS Bootstrap"],
     repo: "#",
-    period: "June 2024 - August 2024",
+    period: "February 2026 - March 2026",
   },
 ];
 
